@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "407827122954",
+    "firebase_url": "https://temporal-grin-276707.firebaseio.com",
+    "project_id": "temporal-grin-276707",
+    "storage_bucket": "temporal-grin-276707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407827122954:android:36247b41253017a4fc08f3",
+        "android_client_info": {
+          "package_name": "com.example.e_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407827122954-qvie79siul2lv6jvfgr52v67h65fsvh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnvoPCsTIC0jpHVWOkyhOIbjNucTI_ddI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407827122954-qvie79siul2lv6jvfgr52v67h65fsvh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
