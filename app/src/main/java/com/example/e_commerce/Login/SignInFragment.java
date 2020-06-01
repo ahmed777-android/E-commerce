@@ -119,7 +119,7 @@ public class SignInFragment extends Fragment {
             if (password.length()>=8){
                 progressBar.setVisibility(View.VISIBLE);
              //   SignIn.setEnabled(false);
-                SignIn.setTextColor(Color.argb(50,255,255,255));
+               // SignIn.setTextColor(Color.argb(50,255,255,255));
                 firebaseAuth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString())
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
@@ -155,11 +155,11 @@ public class SignInFragment extends Fragment {
                 SignIn.setTextColor(Color.rgb(255,255,255));
             }else {
               //  SignIn.setEnabled(false);
-                SignIn.setTextColor(Color.argb(50,255,255,255));
+               // SignIn.setTextColor(Color.argb(50,255,255,255));
             }
         }else {
          //   SignIn.setEnabled(false);
-            SignIn.setTextColor(Color.argb(50,255,255,255));
+          //  SignIn.setTextColor(Color.argb(50,255,255,255));
         }
 
     }
